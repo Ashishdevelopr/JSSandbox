@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS Sandbox - Counter</title>
+    <style>
+      .counter button{
+        padding: 10px 17px;
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+        background-color: rgba(229, 210, 6, 0.812);
+        border: none;
+        border-radius: 10px;
+      }
+
+      .counter{
+        display: flex;
+        justify-content: center;
+      }
+
+      #count{
+        padding: 20px 30px;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      </style>
+  </head>
+  <body>
+    Building Counter
+    <div class="counter">
+      <button type="button" onclick="increment()">Increment +</button>
+      <p id="count">0</p>
+      <button type="button" onclick="decrement()">Decrement -</button>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
